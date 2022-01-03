@@ -7,186 +7,150 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
-
+    name: Ramesh Sah
+    tagline: Ph.D. Student
+    avatar: prof_pic.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
+    email: ramesh.sah@wsu.edu
+    phone: 509 339 5866
+    website: rameshkrshah.github.io #do not add http://
+    linkedin: rameshkrsah
+    xing: 
+    github: rameshKrSah
     telegram: # add your nickname without '@' sign
     gitlab:
     bitbucket:
-    twitter: '@webjeda'
+    twitter: '@rameshkrshah'
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
+    pdf: ../assets/Resume_Ramesh.pdf
 
     languages:
       - idiom: English
+        level: Professional
+
+      - idiom: Nepali
         level: Native
 
-      - idiom: French
-        level: Professional
-
-      - idiom: Spanish
-        level: Professional
+      - idiom: Maithili
+        level: Native
 
     interests:
-      - item: Climbing
+      - item: Soccer
         link:
 
-      - item: Snowboarding
-        link:
-
-      - item: Cooking
+      - item: Hiking
         link:
 
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      Hello, I'm a Computer Science Ph.D. student at Washington State University. My research focus is on learning from limited data in embedded sensor systems. Specifically, I am trying to traing state-of-the-art machine learning models for healthcare applications using time-series data with problems such as class imbalance, noisy labels, and small datasets.
+      
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
+    - degree: Ph.D. in Computer Science
+      university: Washington State University
+      time: 2018 - current
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
+        Ph.D. in Computer Science with a focus on learning from limited data in embedded sensor systems using machine learning algorithms.
+
+    - degree: Bachelor of Engineering in Electronics
+      university: Kathmandu University
+      time: 2012 - 2016
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
+
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Graduate Research Assistant
+      time: 2018 - Present
+      company: Washington State University, USA
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+        - Studied and analyzed the effects of adversarial examples in embedded systems. Machine learning models used in embedded systems were found to be vulnerable to adversarial examples and we also developed a framework for creating adversarial examples using time-series sensor data used in wearable sensor systems. We published a conference paper, [Adar: Adversarial Activity Recognition in Wearables](https://ieeexplore.ieee.org/document/8942124/), with our approach, analysis, and results.
+
+        - Explored transferability of adversarial examples and transfer learning problems in wearable sensor systems. We published a paper that explores the transferability of adversarial examples in wearable systems by taking human activity recognition systems as an example. We found interesting results and more about this work can be found in this [paper](https://arxiv.org/abs/2003.07982)
+
+        - Quantified, measured, and detected stress in real-time in alcohol-addicted individuals using timeseries physiological sensor data. We aim to build a mobile health system that can detect stress and provide interventions such as music therapy, games, and inspirational texts to prevent alcoholdependent people from relapsing.
+
+    - role: Machine Learning Researcher
+      time: 2021, Aug - 2021, Dec
+      company: Rewire Neuro, Portland, USA
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
+        Trained machine learning models for the ototoxicity classification of molecules. Trained models were able to achieve good results but suffered from a lack of data and class imbalance problems.
+        
+    - role: Machine Learning Intern
+      time: 2021, Jun - 2021, Aug
+      company: Proctor & Gamble, Ohio, USA
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-projects:
-    title: Projects
-    intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+        - Compressed and accelerated machine learning models for embedded devices and smartphones.
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+        - Researched Binarized Neural Networks(BNNs) and consolidated findings by developing a library to train binary neural networks from scratch.
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+        - Trained binary CNN for classification using time-series inertial sensor data and binary image classification and object detection models. Binary models did not suffer from significant performance drop but at the same time showed major improvements in terms of memory and computation speed.
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+        - Developed the inference pipeline of binary models for ARM-32, ARM-64 embedded platforms, and Android devices.
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+    - role: Firmware Design Engineer
+      time: 2016, Aug - 2018, May
+      company: Real Time Solutions Pvt. Ltd., Nepal
+      details: |
+        - Developed a prototype system to detect earthquakes using an off-the-shelf accelerometer. The system was designed to detect P and S waves and act as an earthquake monitoring and early-warning system. (Internship)
+
+        - Designed and developed products for smart home devices, IoT, queue management systems, weather monitoring systems, and communication systems for remote research systems.
+
+        During this, I worked with ARM Cortex-M, Cortex-A, ESP8266, and ESP-32 microcontrollers and used communication protocols like MQTT, LoRa, ZigBee, HTTP
 
 publications:
     title: Publications
     intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
     papers:
-      - title: The Art of Computer Programming
+      - title: "Comparing the Predictability of Sensor Modalities to Detect Stress from Wearable Sensor Data"
         link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+        authors: Ryan Holder, Ramesh Sah, Michael Cleveland, Hassan Ghasemzadeh
+        conference: IEEE Consumer Communications & Networking Conference, 2022
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+      - title: "Associations Between Physiological Signals Captured Using Wearable Sensors and Self-reported Outcomes Among Adults in Alcohol Use Disorder Recovery: Development and Usability Study"
+        link: "https://formative.jmir.org/2021/7/e27891"
+        authors: "Prastoo Alinia, Ramesh Sah, Hassan Ghasemzadeh, Michael McDonell, Patricia Pendry, Sara Parent, Michael Cleveland"
+        journal: Journal of Medical Internet Research, 2021
 
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+      - title: "Stress Classification and Personalization: Getting the most out of the least"
+        link: "https://arxiv.org/abs/2107.05666"
+        authors: Ramesh Sah, Hassan Ghasemzadeh
+        conference: "17th IEEE-EMBS International Conference on Wearable and Implantable Body Sensor Networks, 2021"
+
+      - title: Mobile Health for Alcohol Recovery and Relapse Prevention
+        link: "https://dl.acm.org/doi/10.1145/3384420.3431779"
+        authors: Ramesh Sah, Hassan Ghasemzadeh
+        conference: "IEEE/ACM international conference on Connected Health: Applications, Systems and Engineering Technologies (CHASE), 2021"
+
+      - title: Adversarial Transferability in Wearable Sensor Systems
+        link: "https://arxiv.org/abs/2003.07982"
+        authors: Ramesh Sah, Hassan Ghasemzadeh
+        conference: ArXiv Pre-print, 2020
+
+      - title: Adar: Adversarial Activity Recognition in Wearables
+        link: "https://www.semanticscholar.org/paper/Adar%3A-Adversarial-Activity-Recognition-in-Wearables-Sah-Ghasemzadeh/2e5222171b5eb8c9dd855d7bf96bf54e661ea9a1"
+        authors: Ramesh Sah, Hassan Ghasemzadeh
+        conference: "IEEE/ACM International Conference On Computer Aided Design (ICCAD), 2019"
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
+      - name: Python & C
         level: 98%
 
-      - name: Javascript & jQuery
+      - name: C++ & Java
+        level: 50%
+
+      - name: Machine Learning, Research
         level: 98%
 
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
+      - name: TensorFlow, PyTorch, Keras
         level: 95%
 
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
+      - name: Embedded Programming
+        level: 95%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
